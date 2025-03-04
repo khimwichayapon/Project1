@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .header {
+        font-size: 30px;
+        /* text-align: ;  */
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+      .Preparationtime {
+        font-size: 20px;
+        color: hsl(332, 51%, 32%);
+      }
+      .Ingredients {
+        font-size: 20px;
+        color: hsl(14, 45%, 36%);
+      }
+      .Nutrition {
+        font-size: 20px;
+        color: hsl(14, 45%, 36%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .cell {
+        width: 10%;
+        padding-left: 20px;
+        margin-left: 20px;
+      }
+      .flex {
+        display: flex;
+      }
+      .box {
+        width: 500px;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .content {
+        width: 60%;
+        justify-self: center;
+        padding: 20px;
+        background-color: white;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+      .picture {
+        border-radius: 5px;
+        width: 100%;
+      }
+      .instructions {
+        font-size: 20px;
+        color: hsl(14, 45%, 36%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .text-brown {
+        color: hsl(14, 45%, 36%);
+      }
+      .massage {
+        margin-bottom: 20px;
+      }
+    </style>
+
+    <body>
+      <div class="content">
+        <img class="picture" src="./assets/images/image-omelette.jpeg" />
+        <div class="header">Simple Omelette Recipe</div>
+
+        An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked
+        <div class="dot">
+          perfection, optionally filled with your choice of cheese, vegetables,
+          or meats.
+        </div>
+        <div class="box">
+          <div class="Preparationtime">Preparation time</div>
+          <div class="dot">
+            <strong>· total : </strong> Approximately 10 minutes
+          </div>
+          <div class="dot"><strong>· Preparation :</strong> minutes</div>
+          <div class="dot"><strong>· cooking:</strong>5 minutes</div>
+        </div>
+        <div class="Ingredients">Ingredients</div>
+        <ul>
+          <li>2-3 large eggs</li>
+          <li>Salt, to taste</li>
+          <li>Pepper, to taste</li>
+          <li>1 tablespoon of butter or oil</li>
+          <li>
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </li>
+        </ul>
+        <hr />
+        <div class="instructions">Instructions</div>
+        <div class="">
+          <strong>1.Beat the eggs:</strong>
+          In a bowl, beat the eggs with a pinch of salt and pepper until they
+          are well mixed. You can add a tablespoon of water or milk for a
+          fluffier texture.
+        </div>
+        <div class="">
+          <strong>2. Heat the pan:</strong>
+          Place a non-stick frying pan over medium heat and add butter or oil.
+        </div>
+
+        <div class="">
+          <strong>3. Cook the omelette : </strong>
+          Once the butter is melted and bubbling, pour in the eggs. Tilt the pan
+          to ensure the eggs evenly coat the surface.
+        </div>
+
+        <div class="">
+          <strong>4. Add fillings (optional):</strong>
+          When the eggs begin to set at the edges but are still slightly runny
+          in the middle, sprinkle your chosen fillings over one half of the
+          omelette.
+        </div>
+
+        <div class="">
+          <strong> 5. Fold and serve: </strong> the omelette continues to cook,
+          carefully lift one edge and fold it over the fillings. Let it cook for
+          another minute, then slide it onto a plate.
+        </div>
+
+        <div class="">
+          <strong> 6. Enjoy:</strong>Serve hot, with additional salt and pepper
+          if needed.
+        </div>
+        <hr />
+
+        <div class="Nutrition">Nutrition</div>
+        <div class="massage">
+          The table below shows nutritional values per serving without the
+          additional fillings.
+        </div>
+        <div class="flex">
+          <div class="cell">Calories</div>
+          <div class="cell text-brown"><strong>277Kcal</strong></div>
+        </div>
+        <hr />
+
+        <div class="flex">
+          <div class="cell">Carbs</div>
+          <div class="cell text-brown"><strong>0g</strong></div>
+        </div>
+        <hr />
+        <div class="flex">
+          <div class="cell">Protein</div>
+          <div class="cell text-brown"><strong>20g</strong></div>
+        </div>
+
+        <hr />
+        <div class="flex">
+          <div class="cell">fat</div>
+          <div class="cell text-brown"><strong>22g</strong></div>
+        </div>
+        <hr />
+      </div>
+    </body>
+  </head>
+</html>
